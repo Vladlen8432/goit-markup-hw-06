@@ -316,27 +316,20 @@
         <div class="subscribe">
           <p class="subscribe-text">Subscribe</p>
           <form class="subscribe-form">
-            <div class="subscribe-lable">
-              <label>
-                <input
-                  type="email"
-                  class="contact-form-input-subscribe"
-                  name="user_email"
-                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-                />
-              </label>
-              <label>
-                <button class="subscribe-button" type="submit">
-                  Subscribe<svg
-                    class="subscribe-icon"
-                    width="24px"
-                    height="20px"
-                  >
-                    <use href="./images/icons.svg#icon-subscribe"></use>
-                  </svg>
-                </button>
-              </label>
-            </div>
+            <label class="footer-lable">
+              <input
+                type="email"
+                class="contact-form-input-subscribe"
+                name="user-email"
+                placeholder="E-mail"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              />
+            </label>
+            <button class="subscribe-button" type="submit">
+              Subscribe<svg class="subscribe-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>

@@ -665,23 +665,33 @@ img {
 }
 
 .subscribe-text {
+  font-weight: 500;
   margin-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
   color: var(--color-background);
 }
 
-.subscribe-lable {
+.subscribe-form {
   display: flex;
-  gap: 24px;
+}
+
+.footer-lable {
+  margin-right: 24px;
 }
 
 .contact-form-input-subscribe {
   width: 264px;
   height: 40px;
   padding-left: 16px;
-  background-color: var(--color-link-background);
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: transparent;
   border: 1px solid var(--color-background);
   border-radius: 4px;
   color: var(--color-background);
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .contact-form-input-subscribe:focus {
@@ -693,11 +703,14 @@ img {
   justify-content: center;
   align-items: center;
   gap: 16px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--color-background);
   background-color: var(--button-logo-color);
-  border: 1px solid var(--button-logo-color);
+  border: none;
   border-radius: 4px;
   transition: background-color var(--transition-hover),
     border var(--transition-hover);

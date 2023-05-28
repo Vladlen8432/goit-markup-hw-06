@@ -444,6 +444,74 @@
             <use href="./images/icons.svg#icon-close-button"></use>
           </svg>
         </button>
+        <p class="label-text">Leave your contacts and we will call you back</p>
+        <form class="contact-form">
+          <label class="contact-form-field-wrapper">
+            <span class="contact-form-field-desc">Name</span>
+            <span class="contact-form-input-wrapper">
+              <input
+                type="text"
+                class="contact-form-input"
+                name="user_first_name"
+                required
+                pattern="[a-zA-Za-ЯіІїЇґҐєЄ']+"
+              />
+              <svg class="input-icon" width="12px" height="12px">
+                <use href="./images/icons.svg#icon-user"></use>
+              </svg>
+            </span>
+            <span class="contact-form-field-desc">Phone</span>
+            <span class="contact-form-input-wrapper">
+              <input
+                type="text"
+                class="contact-form-input"
+                type="tel"
+                name="user_tel"
+                required
+                pattern=""
+                title=""
+              />
+              <svg class="input-icon" width="12px" height="12px">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </span>
+            <span class="contact-form-field-desc">Email</span>
+            <span class="contact-form-input-wrapper">
+              <input
+                type="text"
+                class="contact-form-input"
+                type=""
+                name="user_email"
+                pattern=""
+                title=""
+              />
+              <svg class="input-icon" width="12px" height="12px">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="contact-form-field-wrapper">
+            <span class="contact-form-field-desc">Comment</span>
+            <textarea
+              class="contact-form-message"
+              name="user_message"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+          <label class="contact-form-checkbox-wrapper">
+              <input
+                class="contact-form-checkbox"
+                type="checkbox"
+                name="user_policy"
+                required
+              />
+              <span class="privacy-policy"
+                >I accept the terms and conditions of the
+                <a class="privacy-policy-link" href="#">Privacy Policy</a></span
+              >
+          </label>
+          <button class="contact-form-submit" type="submit">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>

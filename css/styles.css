@@ -514,6 +514,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
+  padding: 72px 24px;
   transform: translate(-50%, -50%);
   min-height: 584px;
   width: 408px;
@@ -523,7 +524,7 @@ img {
   border-radius: 4px;
   transition: transform var(--transition-hover);
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 .modal-close-button {
   position: absolute;
   display: flex;
@@ -556,6 +557,107 @@ img {
 
 .modal-close-icon {
   transition: fill var(--transition-hover);
+}
+
+.label-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: var(--color-link-background);
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact-form-field-wrapper,
+.contact-form-field-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-field-desc {
+  font-size: 12px;
+  margin-bottom: 4px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--customers-icon);
+}
+
+.contact-form-input-wrapper {
+  position: relative;
+  display: block;
+}
+
+.contact-form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  padding-left: 38px;
+  margin-bottom: 8px;
+}
+
+.contact-form-input:focus {
+  outline: none;
+  border-color: var(--button-logo-color);
+}
+
+.contact-form-message {
+  box-sizing: border-box;
+  width: 100%;
+  height: 120px;
+  resize: none;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  padding-top: 8px;
+  padding-left: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+}
+
+.contact-form-message:focus {
+  outline: none;
+  border-color: var(--button-logo-color);
+}
+
+.input-icon {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 19px;
+  fill: var(--color-link-background);
+}
+
+.contact-form-checkbox {
+  margin-top: 16px;
+}
+
+.privacy-policy {
+  margin-bottom: 24px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  margin-top: 16px;
+}
+
+.contact-form-submit {
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  width: 169px;
+  height: 56px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-background);
+  background-color: var(--button-logo-color);
+  border: 1px solid var(--button-logo-color);
+  border-radius: 4px;
+}
+
+.contact-form-submit:hover,
+.contact-form-submit:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /*====================PORTFOLIO====================*/

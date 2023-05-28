@@ -660,6 +660,54 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+.subscribe {
+  margin-left: 80px;
+}
+
+.subscribe-text {
+  margin-bottom: 16px;
+  color: var(--color-background);
+}
+
+.subscribe-lable {
+  display: flex;
+  gap: 24px;
+}
+
+.contact-form-input-subscribe {
+  width: 264px;
+  height: 40px;
+  padding-left: 16px;
+  background-color: var(--color-link-background);
+  border: 1px solid var(--color-background);
+  border-radius: 4px;
+  color: var(--color-background);
+}
+
+.contact-form-input-subscribe:focus {
+  outline: none;
+}
+
+.subscribe-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 165px;
+  height: 40px;
+  color: var(--color-background);
+  background-color: var(--button-logo-color);
+  border: 1px solid var(--button-logo-color);
+  border-radius: 4px;
+  transition: background-color var(--transition-hover),
+    border var(--transition-hover);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: var(--color-hover);
+}
+
 /*====================PORTFOLIO====================*/
 .sec-port {
   padding: 96px 0 120px;

@@ -706,6 +706,7 @@ img {
 .subscribe-button:hover,
 .subscribe-button:focus {
   background-color: var(--color-hover);
+  border-color: var(--color-hover);
 }
 
 /*====================PORTFOLIO====================*/

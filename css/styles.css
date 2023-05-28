@@ -722,6 +722,10 @@ img {
   border-color: var(--color-hover);
 }
 
+.subscribe-icon {
+margin-left: 16px;
+}
+
 /*====================PORTFOLIO====================*/
 .sec-port {
   padding: 96px 0 120px;

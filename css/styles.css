@@ -676,6 +676,10 @@ img {
   transition: background-color var(--transition-hover);
 }
 
+.privacy-policy-link {
+  color: var(--button-logo-color);
+}
+
 /*contact-form-div {
   margin-bottom: 8px;
 }

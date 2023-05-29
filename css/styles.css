@@ -648,6 +648,8 @@ img {
 }
 
 .privacy-policy {
+  display: flex;
+  gap: 8px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;

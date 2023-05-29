@@ -559,8 +559,6 @@ img {
   transition: fill var(--transition-hover);
 }
 
-
-/*
 .label-text {
   margin-bottom: 16px;
   font-weight: 500;
@@ -570,7 +568,34 @@ img {
   letter-spacing: 0.02em;
 }
 
-.contact-form-div {
+.form-item {
+  margin-bottom: 8px;
+}
+
+.contact-form-field {
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--customers-icon);
+  margin-bottom: 4px;
+}
+
+.input-item {
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color var(--transition-hover);
+}
+
+.input-item:focus {
+  border-color: var(--button-logo-color);
+}
+/*contact-form-div {
   margin-bottom: 8px;
 }
 
@@ -672,7 +697,7 @@ img {
   border-radius: 2px;
   fill: transparent;
 }*/
-
+/*________________________________________________________________*/
 .subscribe {
   margin-left: 80px;
 }
@@ -736,7 +761,7 @@ img {
 }
 
 .subscribe-icon {
-margin-left: 16px;
+  margin-left: 16px;
 }
 
 /*====================PORTFOLIO====================*/

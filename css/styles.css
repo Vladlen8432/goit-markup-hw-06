@@ -712,6 +712,12 @@ img {
   fill: transparent;
 }
 
+.user-check {
+  display: flex;
+  gap: 8px;
+  left: 0;
+}
+
 .user-check-item {
   display: inline-flex;
   align-items: center;

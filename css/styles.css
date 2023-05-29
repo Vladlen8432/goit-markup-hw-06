@@ -694,7 +694,7 @@ img {
   margin-bottom: 24px;
 }
 
-.user-privacy {
+.user-check {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -713,9 +713,14 @@ img {
 }
 
 .user-check-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 16px;
   height: 16px;
-  border: 1px solid 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  fill: transparent;
 }
 
 /*.contact-form-checkbox {

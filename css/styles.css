@@ -672,7 +672,7 @@ img {
   fill: transparent;
   cursor: pointer;
   transition: background-color var(--transition-hover),
-    fill var(--transition-hover);
+    border var(--transition-hover), fill var(--transition-hover);
 }
 
 .send {

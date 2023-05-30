@@ -642,6 +642,10 @@ img {
   margin-bottom: 24px;
 }
 
+/*.checkbox-item {
+  margin-right: 8px;
+}*/
+
 .privacy-policy {
   font-size: 12px;
   line-height: 1.17;
@@ -670,6 +674,7 @@ img {
   border-radius: 2px;
   fill: transparent;
   cursor: pointer;
+  transition: background-color var(--transition-hover);
 }
 
 .send {

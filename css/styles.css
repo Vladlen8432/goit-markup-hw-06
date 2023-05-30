@@ -595,8 +595,7 @@ img {
   outline: transparent;
   transition: border-color var(--transition-hover);
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-/*input-item input-icon icon-item*/
+
 .input-item:focus {
   border-color: var(--button-logo-color);
 }
@@ -610,13 +609,9 @@ img {
   transition: fill var(--transition-hover);
 }
 
-.input-item .input-icon:focus {
+.input-item:focus + .input-icon {
   fill: var(--button-logo-color);
 }
-
-/*.icon-item:focus {
-  fill: var(--button-logo-color);
-}*/
 
 .container-comment {
   display: block;
@@ -654,6 +649,17 @@ img {
   color: var(--customers-icon);
 }
 
+.privacy-text {
+  margin-left: 8px;
+}
+
+.checkbox-item:checked + .privacy-policy > .checkbox-border {
+  background-color: var(--color-hover);
+  border: none;
+  fill: var(--color-background);
+  border-color: var(--color-hover);
+}
+
 .checkbox-border {
   display: inline-flex;
   align-items: center;
@@ -668,6 +674,8 @@ img {
 
 .send {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;

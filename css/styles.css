@@ -707,10 +707,7 @@ img {
 
 .subscribe-form {
   display: flex;
-}
-
-.footer-lable {
-  margin-right: 24px;
+  gap: 24px;
 }
 
 .contact-form-input-subscribe {

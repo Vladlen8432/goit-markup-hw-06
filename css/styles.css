@@ -53,6 +53,10 @@ img {
   padding: 0 15px;
 }
 
+input[type="email"]::-webkit-input-placeholder {
+  color: var(--color-background);
+}
+
 /*====================HEADER====================*/
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -619,6 +623,7 @@ img {
 }
 
 .comment-item {
+  display: block;
   width: 100%;
   height: 120px;
   font-size: 12px;
@@ -696,6 +701,7 @@ img {
   color: var(--button-logo-color);
 }
 
+/* Subscribe */
 .subscribe {
   margin-left: 80px;
 }
@@ -753,10 +759,6 @@ img {
 .subscribe-button:focus {
   background-color: var(--color-hover);
   border-color: var(--color-hover);
-}
-
-.subscribe-icon {
-  margin-left: 16px;
 }
 
 /*====================PORTFOLIO====================*/
